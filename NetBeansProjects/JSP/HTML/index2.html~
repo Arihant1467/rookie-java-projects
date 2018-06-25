@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>My First WebPage</title>
+	</head>
+	<body bgcolor="#FFCCCC" text="Green">
+		Hello Students <br>
+		<p>
+			Welcome to the gedit help guide.<b> For a quick <i>introduction</i></b> into both gedit's most basic features, as well as some advanced keyboard shortcuts, visit the Get started with gedit and Shortcut keys pages.Welcome to the gedit help guide. For a quick introduction into both gedit's most basic features, as well as some advanced keyboard shortcuts, visit the Get started with gedit and Shortcut keys pages.
+		</p>
+<div align="right">
+<font face="Times New Roman" color="Red" size="5">
+			Welcome to the gedit help guide. For a quick introduction into both gedit's most basic features, as well as some advanced keyboard shortcuts, visit the Get started with gedit and Shortcut keys pages.Welcome to the gedit help guide. For a quick introduction into both gedit's most basic features, as well as some advanced keyboard shortcuts, visit the Get started with gedit and Shortcut keys pages.
+</font>
+		</div>
+<blockquote>
+			Welcome to the gedit help guide. For a quick introduction into both gedit's most basic features, as well as some advanced keyboard shortcuts, visit the Get started with gedit and Shortcut keys pages.Welcome to the gedit help guide. For a quick introduction into both gedit's most basic features, as well as some advanced keyboard shortcuts, visit the Get started with gedit and Shortcut keys pages.
+		</blockquote>
+	</body>
+</html>

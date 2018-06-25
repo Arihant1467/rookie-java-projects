@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function Check()
+            {
+                a=document.getElementById("t1").value;
+                if(a>0)
+                {
+                    alert("Number is Positive");
+                }
+                else if(a<0)
+                {
+                    alert("Number is Negative");
+                }
+                else
+                {
+                    alert("Number is Zero");
+                }
+            }
+            function Msg()
+            {
+                abc=confirm("Are You Sure..???");
+               // alert(abc);
+               if(abc)
+               {
+                   alert("Your Work is Done");
+               }
+               else
+               {
+                   alert("Your Work is Not Done");
+               }
+            }
+        </script>
+    </head>
+    <body>
+        Enter Number:
+        <input type="text" id="t1"/><br/>
+        <input type="submit" value="Check" onclick="Check()"/>
+        <input type="submit" value="Show" onclick="Msg()"/>
+        
+    </body>
+</html>

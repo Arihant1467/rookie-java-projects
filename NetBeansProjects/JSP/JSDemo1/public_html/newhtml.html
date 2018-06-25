@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function Add()
+            {
+                num1=document.getElementById("txt1").value;
+                num2=document.getElementById("txt2").value;
+                sum=parseInt(num1)+parseInt(num2);
+                alert("Result = "+sum);
+            }
+        </script>
+    </head>
+    <body>
+        Enter First Number:
+        <input type="text" id="txt1"/><br/>
+    Enter Second Number:
+        <input type="text" id="txt2"/><br/>
+        <input type="submit" onclick="Add()" value="Sum"/>
+    </body>
+</html>

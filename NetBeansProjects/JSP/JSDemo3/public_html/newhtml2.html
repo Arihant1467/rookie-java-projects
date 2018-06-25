@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function Show()
+            {
+                a=document.getElementById('t2').value;
+               // var reg=/\d/; //atleast one digit
+               //reg=/^\d/;   //start with one digit
+               //reg=/\d$/;  //end with digit
+               //reg=/\d{3}/;  //three digit in Sequence
+               //reg=/^\d+$/;  //Only Digit
+               //reg=/[0-5]/; //for range of digit
+               //reg=/^[a-zA-Z ]+$/; //only Alphabet and space
+               reg=/^[a-zA-Z_0-9.]+@[a-zA-Z]+\.[a-zA-Z]+$/;
+               b= reg.test(a);
+               if(!b)
+               {
+                   alert("Invalid Data");
+               }
+            }
+        </script>
+    </head>
+    <body>
+        Enter Value:
+        <input type="text" id="t2"/>
+        <input type="submit" value="Check" onclick="Show()"/>
+    </body>
+</html>

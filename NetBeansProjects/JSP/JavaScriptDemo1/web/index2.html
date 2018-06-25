@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script type="text/javascript">
+            function add()
+            {
+                var a =parseInt(document.getElementById("txtNum1").value);
+                var b =parseInt(document.getElementById("txtNum2").value);
+            
+                var c=a+b;
+                
+                alert("Sum is : " + c)
+            }
+            
+        </script>
+        
+    </head>
+    <body>
+        Enter 1st number : <input type="text" id="txtNum1" ><br>
+        Enter 2nd number : <input type="text" id="txtNum2" ><br>
+        
+        
+            <input type="button" onclick="add()" value="Sum"><br>
+        
+    </body>
+</html>

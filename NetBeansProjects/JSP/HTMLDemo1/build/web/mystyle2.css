@@ -1,0 +1,14 @@
+h2#arun{
+    text-decoration: overline;
+    font-family: fantasy;
+}
+h2#parmeet
+{
+    color: Blue;
+    border: solid;
+}
+
+p{
+    color: green;
+    font-style: italic;
+}

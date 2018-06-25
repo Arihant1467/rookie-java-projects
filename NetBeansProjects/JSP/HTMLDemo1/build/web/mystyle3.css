@@ -1,0 +1,17 @@
+h2.ram{
+    text-decoration: overline;
+    font-family: fantasy;
+}
+h2.shyam
+{
+    color: Blue;
+    border: solid;
+}
+
+p.flower{
+    color: green;
+    font-style: italic;
+}
+p.mouse{
+    border: double;
+}

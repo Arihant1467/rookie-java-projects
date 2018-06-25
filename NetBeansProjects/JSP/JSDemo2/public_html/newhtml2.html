@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function myfun1()
+            {
+                a=document.getElementById("img1");
+                a.src="b.jpg";
+            }
+            function myfun2()
+            {
+                a=document.getElementById("img1");
+                a.src="a.jpg";
+            }
+        </script>
+    </head>
+    <body>
+        <img id="img1" src="a.jpg" onmouseout="myfun2()" onmouseover="myfun1()" width="300" height="300"/>
+    </body>
+</html>

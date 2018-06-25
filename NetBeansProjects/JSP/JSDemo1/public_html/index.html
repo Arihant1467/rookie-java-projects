@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            //document.write("Hello JavaScript");
+            function Fun1()
+            {
+            var name;
+            name=document.getElementById("t1").value;
+           // document.write("Welcome "+name);
+           alert("Welcome "+name);
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+        Enter UserName: <input type="text" id="t1" name="t1"/><br/>
+         <input type="submit" onclick="Fun1()" id="b1" value="Click"/>
+        </div>
+    </body>
+</html>
